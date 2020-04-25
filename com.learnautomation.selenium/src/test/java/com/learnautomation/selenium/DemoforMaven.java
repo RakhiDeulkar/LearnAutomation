@@ -13,6 +13,7 @@ public class DemoforMaven {
 	{
 		System.setProperty("webdriver.chrome.driver","C:\\Chrome\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
+		//this is new commit
 		driver.get("http://www.learn-automation.com");
 		Assert.assertTrue(driver.getTitle().contains("Selenium"));
 	}
